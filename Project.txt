@@ -1,0 +1,49 @@
+ Project:
+_________
+
+	Desktop project
+		HTML
+		CSS
+	Web project
+	app project
+
+Desktop Project:
+_______________
+
+	Front End:
+
+	CUI----> print(), input()
+	GUI----> tkinter
+
+Project Name:
+	Banking automation
+
+Database Connection:-
+sqlite3
+
+table name:acn
+fields/cols:
+	acn_acno	int primary key autoincrement
+	acn_name	text
+	acn_pass	text
+	acn_email	text
+	acn_mob		text
+	acn_bal		float
+	acn_opendate	text
+
+DML- insert, delete, update
+
+How to create installer of python project
+
+
+project file		executable file			installer file(executable + other resources)
+
+     .py		     .exe			     .exe
+
+library convert from project file to executable file- (auto-py-to-exe)
+
+Software creation- (inno setup)
+
+pip install auto-py-to-exe after that run file (auto-py-to-exe)
+
+after complete running download inno setup
